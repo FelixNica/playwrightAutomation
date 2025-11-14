@@ -1,0 +1,827 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - generic [ref=e5]:
+      - link "Sari peste" [ref=e6] [cursor=pointer]:
+        - /url: "#main-content"
+      - list [ref=e8]:
+        - listitem [ref=e9]:
+          - link "Alegi cand vrei sa primesti comanda" [ref=e10] [cursor=pointer]:
+            - /url: /cum-comand-online
+            - img [ref=e12]
+            - text: Alegi cand vrei sa primesti comanda
+        - listitem [ref=e14]:
+          - link "Livrare direct la usa ta" [ref=e15] [cursor=pointer]:
+            - /url: /cum-se-aleg-produsele
+            - img [ref=e17]
+            - text: Livrare direct la usa ta
+        - listitem [ref=e19]:
+          - link "Livram in siguranta fiecare comanda" [ref=e20] [cursor=pointer]:
+            - /url: /cum-se-aleg-produsele
+            - img [ref=e22]
+            - text: Livram in siguranta fiecare comanda
+        - listitem [ref=e24]:
+          - link "Exploreaza promotiile" [ref=e25] [cursor=pointer]:
+            - /url: /search/promotii
+            - img [ref=e27]
+            - text: Exploreaza promotiile
+      - generic [ref=e30]:
+        - link "Catre pagina principala" [ref=e31] [cursor=pointer]:
+          - /url: /
+        - generic [ref=e33]:
+          - generic [ref=e34]:
+            - combobox "Cauta" [expanded] [ref=e35]: lapte
+            - generic [ref=e36]:
+              - button "Anuleaza cautarea" [ref=e37]:
+                - img [ref=e38]
+              - button "Incepe cautarea" [ref=e41]:
+                - img [ref=e42]
+          - generic [ref=e44]: "Numar total de rezultate: 16"
+        - list [ref=e45]:
+          - listitem [ref=e46]:
+            - link "Top produse" [ref=e48] [cursor=pointer]:
+              - /url: /customerhub/quick-shop/top-products
+              - img [ref=e49]
+              - generic [ref=e53]: Top produse
+          - listitem [ref=e54]:
+            - link "Liste" [ref=e56] [cursor=pointer]:
+              - /url: /my-lists
+              - img [ref=e57]
+              - generic [ref=e59]: Liste
+          - listitem [ref=e60]:
+            - link "Contul meu" [ref=e63] [cursor=pointer]:
+              - /url: /reg/welcome
+              - img [ref=e64]
+              - generic [ref=e67]: Contul meu
+          - listitem [ref=e68]:
+            - link "Vezi coșul tău, 0 produse" [ref=e69] [cursor=pointer]:
+              - /url: /checkout
+              - img [ref=e71]
+              - generic [ref=e73]: "0"
+          - generic [ref=e74]:
+            - generic [ref=e75]:
+              - generic [ref=e76]:
+                - heading "Descopera ofertele si beneficiile" [level=4] [ref=e77]
+                - paragraph [ref=e78]: Intra in cont pentru o experienta personalizata.
+              - button "Închide" [ref=e79]:
+                - img [ref=e81]
+            - button "Contul meu" [ref=e83]:
+              - generic [ref=e85]: Contul meu
+      - generic [ref=e89]:
+        - list [ref=e90]:
+          - listitem [ref=e91]:
+            - button "Supermarket Online" [ref=e93]:
+              - img [ref=e94]
+              - generic [ref=e96]: Supermarket Online
+              - img [ref=e98]
+          - listitem [ref=e100]:
+            - link "Vinuri" [ref=e102] [cursor=pointer]:
+              - /url: /BAUTURI-SI-TUTUN/VIN/c/009002?intcmp=website_top-menu-bar_vinuri_button_NA_ro
+              - generic [ref=e103]: Vinuri
+          - listitem [ref=e104]:
+            - link "Promotii" [ref=e106] [cursor=pointer]:
+              - /url: /search/promotii?intcmp=website_top-menu-bar_promotii_button_NA_ro
+              - generic [ref=e107]: Promotii
+          - listitem [ref=e108]:
+            - button "Retete" [ref=e110]:
+              - generic [ref=e111]: Retete
+              - img [ref=e113]
+          - listitem [ref=e115]:
+            - link "Branduri Proprii" [ref=e117] [cursor=pointer]:
+              - /url: /produse-marca-proprie?intcmp=website_top-menu-bar_own-brands_button_NA_ro
+              - generic [ref=e118]: Branduri Proprii
+        - list [ref=e119]:
+          - listitem [ref=e120]:
+            - link "Mega Business" [ref=e122] [cursor=pointer]:
+              - /url: /cumparaturi-pentru-birou?intcmp=website_top-menu-bar_business_button_NA_ro
+              - generic [ref=e123]: Mega Business
+          - listitem [ref=e124]:
+            - link "Card Connect" [ref=e126] [cursor=pointer]:
+              - /url: /loyalty?intcmp=web_all_button_all-web_loyalty-program__button_ro
+              - generic [ref=e127]: Card Connect
+          - listitem [ref=e128]:
+            - link "Inspiratie" [ref=e130] [cursor=pointer]:
+              - /url: /inspiratie?intcmp=website_top-menu-bar_inspiratie&catalog_button_NA_ro
+              - generic [ref=e131]: Inspiratie
+          - listitem [ref=e132]:
+            - link "Localizare magazine" [ref=e134] [cursor=pointer]:
+              - /url: /magazine?intcmp=website_top-menu-bar_localizare-magazine_button_NA_ro
+              - generic [ref=e135]: Localizare magazine
+          - listitem
+      - generic [ref=e138]:
+        - img [ref=e140]
+        - alert [ref=e145]:
+          - generic [ref=e146]: Comandă acum și ai LIVRARE GRATUITĂ! La comenzi de peste 250 lei cu livrare programată!
+        - button "Inchide" [ref=e147]:
+          - img [ref=e148]
+  - status [ref=e150]
+  - generic [ref=e152]:
+    - generic [ref=e155]:
+      - navigation "Breadcrumb" [ref=e158]:
+        - list [ref=e159]:
+          - listitem [ref=e160]:
+            - link "Home" [ref=e162] [cursor=pointer]:
+              - /url: https://www.mega-image.ro
+              - img [ref=e164]
+          - listitem [ref=e166]:
+            - generic [ref=e167]:
+              - img [ref=e169]
+              - generic [ref=e171]: Ai cautat produsul
+      - button "Rezerva acum un interval orar pentru livrare" [ref=e174]:
+        - generic [ref=e176]: Rezerva acum un interval orar pentru livrare
+    - main [ref=e177]:
+      - generic [ref=e178]:
+        - generic [ref=e182]:
+          - button "Filtreaza si sorteaza" [ref=e183]:
+            - img [ref=e185]
+            - generic [ref=e187]: Filtreaza si sorteaza
+          - button "Produse BIO" [ref=e189]:
+            - generic "Produse BIO" [ref=e191]
+          - button "Oferte" [ref=e193]:
+            - generic "Oferte" [ref=e195]
+          - button "Branduri proprii" [ref=e197]:
+            - img [ref=e199]
+            - generic "Branduri proprii" [ref=e201]
+          - button "Calitate la preturi bune zi de zi" [ref=e203]:
+            - generic "Calitate la preturi bune zi de zi" [ref=e205]
+          - generic [ref=e206]: 1252 rezultate
+        - generic [ref=e209]:
+          - list [ref=e214]:
+            - listitem [ref=e215]:
+              - generic [ref=e218]:
+                - generic [ref=e219]:
+                  - heading "Olympus Lapte bio de capra 3.7% grasime 1L" [level=4] [ref=e221]:
+                    - link "Olympus Lapte bio de capra 3.7% grasime 1L" [ref=e222] [cursor=pointer]:
+                      - /url: /Lactate-si-oua/Lapte-proaspat/Lapte-proaspat-integral/Lapte-bio-de-capra-3-7-grasime-1L/p/58427
+                      - img [ref=e223]
+                  - list [ref=e225]:
+                    - listitem [ref=e226]:
+                      - generic "Informații. Produsele proaspete sunt ambalate si transportate cu grija." [ref=e227]
+                - generic "Informații." [ref=e230]:
+                  - button "Produsul nu face parte din listele de cumparaturi. Adauga-l acum intr-o lista." [ref=e231]:
+                    - img [ref=e233]
+                - generic [ref=e235]:
+                  - heading [level=3] [ref=e237]:
+                    - link [ref=e238] [cursor=pointer]:
+                      - /url: /Lactate-si-oua/Lapte-proaspat/Lapte-proaspat-integral/Lapte-bio-de-capra-3-7-grasime-1L/p/58427
+                      - text: Olympus Lapte bio de capra 3.7% grasime 1L
+                  - 'generic "Pret per unitate: 18 lei si 59 bani per L" [ref=e243]': 18.59 Lei/L
+                  - generic [ref=e244]:
+                    - 'generic "Pret: 18 lei si 59 bani" [ref=e248]':
+                      - generic [ref=e249]: "18"
+                      - superscript [ref=e250]: "59"
+                      - generic [ref=e251]: Lei
+                    - button "Adauga in cos" [ref=e253]:
+                      - img [ref=e254]
+            - listitem [ref=e256]:
+              - generic [ref=e259]:
+                - generic [ref=e260]:
+                  - heading "Napolact Bio Lapte 1.5% grasime 1.5L" [level=4] [ref=e262]:
+                    - link "Napolact Bio Lapte 1.5% grasime 1.5L" [ref=e263] [cursor=pointer]:
+                      - /url: /Lactate-si-oua/Lapte-proaspat/Lapte-proaspat-semidegresat/Lapte-1-5-grasime-1-5L/p/39601
+                      - img [ref=e264]
+                  - list [ref=e266]:
+                    - listitem [ref=e267]:
+                      - generic "Informații. Produsele proaspete sunt ambalate si transportate cu grija." [ref=e268]
+                - generic "Informații." [ref=e271]:
+                  - button "Produsul nu face parte din listele de cumparaturi. Adauga-l acum intr-o lista." [ref=e272]:
+                    - img [ref=e274]
+                - generic [ref=e276]:
+                  - heading [level=3] [ref=e278]:
+                    - link [ref=e279] [cursor=pointer]:
+                      - /url: /Lactate-si-oua/Lapte-proaspat/Lapte-proaspat-semidegresat/Lapte-1-5-grasime-1-5L/p/39601
+                      - text: Napolact Bio Lapte 1.5% grasime 1.5L
+                  - 'generic "Pret per unitate: 12 lei si 13 bani per L" [ref=e284]': 12.13 Lei/L
+                  - generic [ref=e285]:
+                    - 'generic "Pret: 18 lei si 19 bani" [ref=e289]':
+                      - generic [ref=e290]: "18"
+                      - superscript [ref=e291]: "19"
+                      - generic [ref=e292]: Lei
+                    - button "Adauga in cos" [ref=e294]:
+                      - img [ref=e295]
+            - listitem [ref=e297]:
+              - generic [ref=e300]:
+                - heading "Fulga Lapte UHT cu cacao 200ml" [level=4] [ref=e303]:
+                  - link "Fulga Lapte UHT cu cacao 200ml" [ref=e304] [cursor=pointer]:
+                    - /url: /Paine-cafea-cereale-si-mic-dejun/Lapte-UHT/Lapte-UHT-semidegresat/Lapte-UHT-cu-cacao-200ml/p/45993
+                    - img [ref=e305]
+                - generic "Informații." [ref=e307]:
+                  - button "Produsul nu face parte din listele de cumparaturi. Adauga-l acum intr-o lista." [ref=e308]:
+                    - img [ref=e310]
+                - generic [ref=e312]:
+                  - heading [level=3] [ref=e314]:
+                    - link [ref=e315] [cursor=pointer]:
+                      - /url: /Paine-cafea-cereale-si-mic-dejun/Lapte-UHT/Lapte-UHT-semidegresat/Lapte-UHT-cu-cacao-200ml/p/45993
+                      - text: Fulga Lapte UHT cu cacao 200ml
+                  - 'generic "Pret per unitate: 21 lei si 45 bani per L" [ref=e320]': 21.45 Lei/L
+                  - generic [ref=e321]:
+                    - 'generic "Pret: 4 lei si 29 bani" [ref=e325]':
+                      - generic [ref=e326]: "4"
+                      - superscript [ref=e327]: "29"
+                      - generic [ref=e328]: Lei
+                    - button "Adauga in cos" [ref=e330]:
+                      - img [ref=e331]
+            - listitem [ref=e333]:
+              - generic [ref=e336]:
+                - heading "Fulga Lapte UHT 3.5% grasime 1L" [level=4] [ref=e339]:
+                  - link "Fulga Lapte UHT 3.5% grasime 1L" [ref=e340] [cursor=pointer]:
+                    - /url: /Paine-cafea-cereale-si-mic-dejun/Lapte-UHT/Lapte-UHT-integral/Lapte-UHT-3-5-grasime-1L/p/28242
+                    - img [ref=e341]
+                - generic "Informații." [ref=e343]:
+                  - button "Produsul nu face parte din listele de cumparaturi. Adauga-l acum intr-o lista." [ref=e344]:
+                    - img [ref=e346]
+                - generic [ref=e348]:
+                  - heading [level=3] [ref=e350]:
+                    - link [ref=e351] [cursor=pointer]:
+                      - /url: /Paine-cafea-cereale-si-mic-dejun/Lapte-UHT/Lapte-UHT-integral/Lapte-UHT-3-5-grasime-1L/p/28242
+                      - text: Fulga Lapte UHT 3.5% grasime 1L
+                  - 'generic "Pret per unitate: 9 lei si 19 bani per L" [ref=e356]': 9.19 Lei/L
+                  - generic [ref=e357]:
+                    - 'generic "Pret: 9 lei si 19 bani" [ref=e361]':
+                      - generic [ref=e362]: "9"
+                      - superscript [ref=e363]: "19"
+                      - generic [ref=e364]: Lei
+                    - button "Adauga in cos" [ref=e366]:
+                      - img [ref=e367]
+            - listitem [ref=e369]:
+              - generic [ref=e372]:
+                - generic [ref=e373]:
+                  - heading "LaDORNA Lapte fara lactoza 1.5% grasime 1L" [level=4] [ref=e375]:
+                    - link "LaDORNA Lapte fara lactoza 1.5% grasime 1L" [ref=e376] [cursor=pointer]:
+                      - /url: /Lactate-si-oua/Lapte-proaspat/Lapte-proaspat-semidegresat/Lapte-fara-lactoza-1-5-grasime-1L/p/15682
+                      - img [ref=e377]
+                  - list [ref=e379]:
+                    - listitem [ref=e380]:
+                      - generic "Informații. Produsele proaspete sunt ambalate si transportate cu grija." [ref=e381]
+                - generic "Informații." [ref=e384]:
+                  - button "Produsul nu face parte din listele de cumparaturi. Adauga-l acum intr-o lista." [ref=e385]:
+                    - img [ref=e387]
+                - generic [ref=e389]:
+                  - heading [level=3] [ref=e391]:
+                    - link [ref=e392] [cursor=pointer]:
+                      - /url: /Lactate-si-oua/Lapte-proaspat/Lapte-proaspat-semidegresat/Lapte-fara-lactoza-1-5-grasime-1L/p/15682
+                      - text: LaDORNA Lapte fara lactoza 1.5% grasime 1L
+                  - 'generic "Pret per unitate: 8 lei si 03 bani per L" [ref=e397]': 8.03 Lei/L
+                  - generic [ref=e398]:
+                    - 'generic "Pret: 8 lei si 03 bani" [ref=e402]':
+                      - generic [ref=e403]: "8"
+                      - superscript [ref=e404]: "03"
+                      - generic [ref=e405]: Lei
+                    - button "Adauga in cos" [ref=e407]:
+                      - img [ref=e408]
+            - listitem [ref=e410]:
+              - generic [ref=e413]:
+                - generic [ref=e414]:
+                  - heading "Napolact Bio Lapte 1.5% grasime 1L" [level=4] [ref=e416]:
+                    - link "Napolact Bio Lapte 1.5% grasime 1L" [ref=e417] [cursor=pointer]:
+                      - /url: /Lactate-si-oua/Lapte-proaspat/Lapte-proaspat-semidegresat/Lapte-1-5-grasime-1L/p/48050
+                      - img [ref=e418]
+                  - list [ref=e420]:
+                    - listitem [ref=e421]:
+                      - generic "Informații. Produsele proaspete sunt ambalate si transportate cu grija." [ref=e422]
+                - generic "Informații." [ref=e425]:
+                  - button "Produsul nu face parte din listele de cumparaturi. Adauga-l acum intr-o lista." [ref=e426]:
+                    - img [ref=e428]
+                - generic [ref=e430]:
+                  - heading [level=3] [ref=e432]:
+                    - link [ref=e433] [cursor=pointer]:
+                      - /url: /Lactate-si-oua/Lapte-proaspat/Lapte-proaspat-semidegresat/Lapte-1-5-grasime-1L/p/48050
+                      - text: Napolact Bio Lapte 1.5% grasime 1L
+                  - 'generic "Pret per unitate: 6 lei si 99 bani per L" [ref=e438]': 6.99 Lei/L
+                  - generic [ref=e439]:
+                    - 'generic "Pret: 6 lei si 99 bani" [ref=e443]':
+                      - generic [ref=e444]: "6"
+                      - superscript [ref=e445]: "99"
+                      - generic [ref=e446]: Lei
+                    - button "Adauga in cos" [ref=e448]:
+                      - img [ref=e449]
+            - listitem [ref=e451]:
+              - generic [ref=e454]:
+                - generic [ref=e455]:
+                  - heading "Napolact Lapte 1.5% grasime 1L" [level=4] [ref=e457]:
+                    - link "Napolact Lapte 1.5% grasime 1L" [ref=e458] [cursor=pointer]:
+                      - /url: /Lactate-si-oua/Lapte-proaspat/Lapte-proaspat-semidegresat/Lapte-1-5-grasime-1L/p/63870
+                      - img [ref=e459]
+                  - list [ref=e461]:
+                    - listitem [ref=e462]:
+                      - generic "Informații. Produsele proaspete sunt ambalate si transportate cu grija." [ref=e463]
+                - generic "Informații." [ref=e466]:
+                  - button "Produsul nu face parte din listele de cumparaturi. Adauga-l acum intr-o lista." [ref=e467]:
+                    - img [ref=e469]
+                - generic [ref=e471]:
+                  - heading [level=3] [ref=e473]:
+                    - link [ref=e474] [cursor=pointer]:
+                      - /url: /Lactate-si-oua/Lapte-proaspat/Lapte-proaspat-semidegresat/Lapte-1-5-grasime-1L/p/63870
+                      - text: Napolact Lapte 1.5% grasime 1L
+                  - 'generic "Pret per unitate: 6 lei si 81 bani per L" [ref=e479]': 6.81 Lei/L
+                  - generic [ref=e480]:
+                    - 'generic "Pret: 6 lei si 81 bani" [ref=e484]':
+                      - generic [ref=e485]: "6"
+                      - superscript [ref=e486]: "81"
+                      - generic [ref=e487]: Lei
+                    - button "Adauga in cos" [ref=e489]:
+                      - img [ref=e490]
+            - listitem [ref=e492]:
+              - generic [ref=e495]:
+                - generic [ref=e496]:
+                  - heading "Zuzu Lapte 1.5% grasime 1.8L" [level=4] [ref=e498]:
+                    - link "Zuzu Lapte 1.5% grasime 1.8L" [ref=e499] [cursor=pointer]:
+                      - /url: /Lactate-si-oua/Lapte-proaspat/Lapte-proaspat-semidegresat/Lapte-1-5-grasime-1-8L/p/96966
+                      - img [ref=e500]
+                  - list [ref=e502]:
+                    - listitem [ref=e503]:
+                      - generic "Informații. Produsele proaspete sunt ambalate si transportate cu grija." [ref=e504]
+                - generic "Informații." [ref=e507]:
+                  - button "Produsul nu face parte din listele de cumparaturi. Adauga-l acum intr-o lista." [ref=e508]:
+                    - img [ref=e510]
+                - generic [ref=e512]:
+                  - heading [level=3] [ref=e514]:
+                    - link [ref=e515] [cursor=pointer]:
+                      - /url: /Lactate-si-oua/Lapte-proaspat/Lapte-proaspat-semidegresat/Lapte-1-5-grasime-1-8L/p/96966
+                      - text: Zuzu Lapte 1.5% grasime 1.8L
+                  - 'generic "Pret per unitate: 8 lei si 22 bani per L" [ref=e520]': 8.22 Lei/L
+                  - generic [ref=e521]:
+                    - 'generic "Pret: 14 lei si 79 bani" [ref=e525]':
+                      - generic [ref=e526]: "14"
+                      - superscript [ref=e527]: "79"
+                      - generic [ref=e528]: Lei
+                    - button "Adauga in cos" [ref=e530]:
+                      - img [ref=e531]
+            - listitem [ref=e533]:
+              - generic [ref=e536]:
+                - generic [ref=e537]:
+                  - heading "Olympus Lapte de capra 3.7% grasime 1L" [level=4] [ref=e539]:
+                    - link "Olympus Lapte de capra 3.7% grasime 1L" [ref=e540] [cursor=pointer]:
+                      - /url: /Lactate-si-oua/Lapte-proaspat/Lapte-proaspat-integral/Lapte-de-capra-3-7-grasime-1L/p/83852
+                      - img [ref=e541]
+                  - list [ref=e543]:
+                    - listitem [ref=e544]:
+                      - generic "Informații. Produsele proaspete sunt ambalate si transportate cu grija." [ref=e545]
+                - generic "Informații." [ref=e548]:
+                  - button "Produsul nu face parte din listele de cumparaturi. Adauga-l acum intr-o lista." [ref=e549]:
+                    - img [ref=e551]
+                - generic [ref=e553]:
+                  - heading [level=3] [ref=e555]:
+                    - link [ref=e556] [cursor=pointer]:
+                      - /url: /Lactate-si-oua/Lapte-proaspat/Lapte-proaspat-integral/Lapte-de-capra-3-7-grasime-1L/p/83852
+                      - text: Olympus Lapte de capra 3.7% grasime 1L
+                  - 'generic "Pret per unitate: 11 lei si 99 bani per L" [ref=e561]': 11.99 Lei/L
+                  - generic [ref=e562]:
+                    - 'generic "Pret: 11 lei si 99 bani" [ref=e566]':
+                      - generic [ref=e567]: "11"
+                      - superscript [ref=e568]: "99"
+                      - generic [ref=e569]: Lei
+                    - button "Adauga in cos" [ref=e571]:
+                      - img [ref=e572]
+            - listitem [ref=e574]:
+              - generic [ref=e577]:
+                - generic [ref=e578]:
+                  - heading "Olympus Lapte 1.7% grasime 1L" [level=4] [ref=e580]:
+                    - link "Olympus Lapte 1.7% grasime 1L" [ref=e581] [cursor=pointer]:
+                      - /url: /Lactate-si-oua/Lapte-proaspat/Lapte-proaspat-semidegresat/Lapte-1-7-grasime-1L/p/74540
+                      - img [ref=e582]
+                  - list [ref=e584]:
+                    - listitem [ref=e585]:
+                      - generic "Informații. Produsele proaspete sunt ambalate si transportate cu grija." [ref=e586]
+                - generic "Informații." [ref=e589]:
+                  - button "Produsul nu face parte din listele de cumparaturi. Adauga-l acum intr-o lista." [ref=e590]:
+                    - img [ref=e592]
+                - generic [ref=e594]:
+                  - heading [level=3] [ref=e596]:
+                    - link [ref=e597] [cursor=pointer]:
+                      - /url: /Lactate-si-oua/Lapte-proaspat/Lapte-proaspat-semidegresat/Lapte-1-7-grasime-1L/p/74540
+                      - text: Olympus Lapte 1.7% grasime 1L
+                  - 'generic "Pret per unitate: 9 lei si 69 bani per L" [ref=e602]': 9.69 Lei/L
+                  - generic [ref=e603]:
+                    - 'generic "Pret: 9 lei si 69 bani" [ref=e607]':
+                      - generic [ref=e608]: "9"
+                      - superscript [ref=e609]: "69"
+                      - generic [ref=e610]: Lei
+                    - button "Adauga in cos" [ref=e612]:
+                      - img [ref=e613]
+            - listitem [ref=e615]:
+              - generic [ref=e618]:
+                - generic [ref=e619]:
+                  - heading "Napolact Lapte 1.5% grasime 1.5L" [level=4] [ref=e621]:
+                    - link "Napolact Lapte 1.5% grasime 1.5L" [ref=e622] [cursor=pointer]:
+                      - /url: /Lactate-si-oua/Lapte-proaspat/Lapte-proaspat-semidegresat/Lapte-1-5-grasime-1-5L/p/39620
+                      - img [ref=e623]
+                  - list [ref=e625]:
+                    - listitem [ref=e626]:
+                      - generic "Informații. Produsele proaspete sunt ambalate si transportate cu grija." [ref=e627]
+                - generic "Informații." [ref=e630]:
+                  - button "Produsul nu face parte din listele de cumparaturi. Adauga-l acum intr-o lista." [ref=e631]:
+                    - img [ref=e633]
+                - generic [ref=e635]:
+                  - heading [level=3] [ref=e637]:
+                    - link [ref=e638] [cursor=pointer]:
+                      - /url: /Lactate-si-oua/Lapte-proaspat/Lapte-proaspat-semidegresat/Lapte-1-5-grasime-1-5L/p/39620
+                      - text: Napolact Lapte 1.5% grasime 1.5L
+                  - 'generic "Pret per unitate: 10 lei si 66 bani per L" [ref=e643]': 10.66 Lei/L
+                  - generic [ref=e644]:
+                    - 'generic "Pret: 15 lei si 99 bani" [ref=e648]':
+                      - generic [ref=e649]: "15"
+                      - superscript [ref=e650]: "99"
+                      - generic [ref=e651]: Lei
+                    - button "Adauga in cos" [ref=e653]:
+                      - img [ref=e654]
+            - listitem [ref=e656]:
+              - generic [ref=e659]:
+                - heading "LaDORNA Lapte ultrapasteurizat 1.5% grasime 1L" [level=4] [ref=e662]:
+                  - link "LaDORNA Lapte ultrapasteurizat 1.5% grasime 1L" [ref=e663] [cursor=pointer]:
+                    - /url: /Paine-cafea-cereale-si-mic-dejun/Lapte-UHT/Lapte-UHT-semidegresat/Lapte-ultrapasteurizat-1-5-grasime-1L/p/21227
+                    - img [ref=e664]
+                - generic "Informații." [ref=e666]:
+                  - button "Produsul nu face parte din listele de cumparaturi. Adauga-l acum intr-o lista." [ref=e667]:
+                    - img [ref=e669]
+                - generic [ref=e671]:
+                  - heading [level=3] [ref=e673]:
+                    - link [ref=e674] [cursor=pointer]:
+                      - /url: /Paine-cafea-cereale-si-mic-dejun/Lapte-UHT/Lapte-UHT-semidegresat/Lapte-ultrapasteurizat-1-5-grasime-1L/p/21227
+                      - text: LaDORNA Lapte ultrapasteurizat 1.5% grasime 1L
+                  - 'generic "Pret per unitate: 9 lei si 39 bani per L" [ref=e679]': 9.39 Lei/L
+                  - generic [ref=e680]:
+                    - 'generic "Pret: 9 lei si 39 bani" [ref=e684]':
+                      - generic [ref=e685]: "9"
+                      - superscript [ref=e686]: "39"
+                      - generic [ref=e687]: Lei
+                    - button "Adauga in cos" [ref=e689]:
+                      - img [ref=e690]
+            - listitem [ref=e692]:
+              - generic [ref=e695]:
+                - generic [ref=e696]:
+                  - heading "Gusturi romanesti Lapte 1.5% grasime 1L" [level=4] [ref=e698]:
+                    - link "Gusturi romanesti Lapte 1.5% grasime 1L" [ref=e699] [cursor=pointer]:
+                      - /url: /Lactate-si-oua/Lapte-proaspat/Lapte-proaspat-semidegresat/Lapte-1-5-grasime-1L/p/97106
+                      - img [ref=e700]
+                  - list [ref=e702]:
+                    - listitem [ref=e703]:
+                      - generic "Informații. Produsele proaspete sunt ambalate si transportate cu grija." [ref=e704]
+                - generic "Informații." [ref=e707]:
+                  - button "Produsul nu face parte din listele de cumparaturi. Adauga-l acum intr-o lista." [ref=e708]:
+                    - img [ref=e710]
+                - generic [ref=e712]:
+                  - heading [level=3] [ref=e714]:
+                    - link [ref=e715] [cursor=pointer]:
+                      - /url: /Lactate-si-oua/Lapte-proaspat/Lapte-proaspat-semidegresat/Lapte-1-5-grasime-1L/p/97106
+                      - text: Gusturi romanesti Lapte 1.5% grasime 1L
+                  - 'generic "Pret per unitate: 6 lei si 10 bani per L" [ref=e720]': 6.10 Lei/L
+                  - generic [ref=e721]:
+                    - 'generic "Pret: 6 lei si 10 bani" [ref=e725]':
+                      - generic [ref=e726]: "6"
+                      - superscript [ref=e727]: "10"
+                      - generic [ref=e728]: Lei
+                    - button "Adauga in cos" [ref=e730]:
+                      - img [ref=e731]
+            - listitem [ref=e733]:
+              - generic [ref=e736]:
+                - generic [ref=e737]:
+                  - heading "Zuzu Lapte 1.5% grasime 500ml" [level=4] [ref=e739]:
+                    - link "Zuzu Lapte 1.5% grasime 500ml" [ref=e740] [cursor=pointer]:
+                      - /url: /Lactate-si-oua/Lapte-proaspat/Lapte-proaspat-semidegresat/Lapte-1-5-grasime-500ml/p/97681
+                      - img [ref=e741]
+                  - list [ref=e743]:
+                    - listitem [ref=e744]:
+                      - generic "Informații. Produsele proaspete sunt ambalate si transportate cu grija." [ref=e745]
+                - generic "Informații." [ref=e748]:
+                  - button "Produsul nu face parte din listele de cumparaturi. Adauga-l acum intr-o lista." [ref=e749]:
+                    - img [ref=e751]
+                - generic [ref=e753]:
+                  - heading [level=3] [ref=e755]:
+                    - link [ref=e756] [cursor=pointer]:
+                      - /url: /Lactate-si-oua/Lapte-proaspat/Lapte-proaspat-semidegresat/Lapte-1-5-grasime-500ml/p/97681
+                      - text: Zuzu Lapte 1.5% grasime 500ml
+                  - 'generic "Pret per unitate: 10 lei si 38 bani per L" [ref=e761]': 10.38 Lei/L
+                  - generic [ref=e762]:
+                    - 'generic "Pret: 5 lei si 19 bani" [ref=e766]':
+                      - generic [ref=e767]: "5"
+                      - superscript [ref=e768]: "19"
+                      - generic [ref=e769]: Lei
+                    - button "Adauga in cos" [ref=e771]:
+                      - img [ref=e772]
+            - listitem [ref=e774]:
+              - generic [ref=e777]:
+                - generic [ref=e778]:
+                  - heading "Napolact Bio Lapte 3.8% grasime 1L" [level=4] [ref=e780]:
+                    - link "Napolact Bio Lapte 3.8% grasime 1L" [ref=e781] [cursor=pointer]:
+                      - /url: /Lactate-si-oua/Lapte-proaspat/Lapte-proaspat-integral/Lapte-3-8-grasime-1L/p/48052
+                      - img [ref=e782]
+                  - list [ref=e784]:
+                    - listitem [ref=e785]:
+                      - generic "Informații. Produsele proaspete sunt ambalate si transportate cu grija." [ref=e786]
+                - generic "Informații." [ref=e789]:
+                  - button "Produsul nu face parte din listele de cumparaturi. Adauga-l acum intr-o lista." [ref=e790]:
+                    - img [ref=e792]
+                - generic [ref=e794]:
+                  - heading [level=3] [ref=e796]:
+                    - link [ref=e797] [cursor=pointer]:
+                      - /url: /Lactate-si-oua/Lapte-proaspat/Lapte-proaspat-integral/Lapte-3-8-grasime-1L/p/48052
+                      - text: Napolact Bio Lapte 3.8% grasime 1L
+                  - 'generic "Pret per unitate: 12 lei si 29 bani per L" [ref=e802]': 12.29 Lei/L
+                  - generic [ref=e803]:
+                    - 'generic "Pret: 12 lei si 29 bani" [ref=e807]':
+                      - generic [ref=e808]: "12"
+                      - superscript [ref=e809]: "29"
+                      - generic [ref=e810]: Lei
+                    - button "Adauga in cos" [ref=e812]:
+                      - img [ref=e813]
+            - listitem [ref=e815]:
+              - generic [ref=e818]:
+                - generic [ref=e819]:
+                  - heading "Napolact Bio Lapte 3.8% grasime 1.5L" [level=4] [ref=e821]:
+                    - link "Napolact Bio Lapte 3.8% grasime 1.5L" [ref=e822] [cursor=pointer]:
+                      - /url: /Lactate-si-oua/Lapte-proaspat/Lapte-proaspat-integral/Lapte-3-8-grasime-1-5L/p/39618
+                      - img [ref=e823]
+                  - list [ref=e825]:
+                    - listitem [ref=e826]:
+                      - generic "Informații. Produsele proaspete sunt ambalate si transportate cu grija." [ref=e827]
+                - generic "Informații." [ref=e830]:
+                  - button "Produsul nu face parte din listele de cumparaturi. Adauga-l acum intr-o lista." [ref=e831]:
+                    - img [ref=e833]
+                - generic [ref=e835]:
+                  - heading [level=3] [ref=e837]:
+                    - link [ref=e838] [cursor=pointer]:
+                      - /url: /Lactate-si-oua/Lapte-proaspat/Lapte-proaspat-integral/Lapte-3-8-grasime-1-5L/p/39618
+                      - text: Napolact Bio Lapte 3.8% grasime 1.5L
+                  - 'generic "Pret per unitate: 12 lei si 39 bani per L" [ref=e843]': 12.39 Lei/L
+                  - generic [ref=e844]:
+                    - 'generic "Pret: 18 lei si 59 bani" [ref=e848]':
+                      - generic [ref=e849]: "18"
+                      - superscript [ref=e850]: "59"
+                      - generic [ref=e851]: Lei
+                    - button "Adauga in cos" [ref=e853]:
+                      - img [ref=e854]
+            - listitem [ref=e856]:
+              - generic [ref=e859]:
+                - generic [ref=e860]:
+                  - heading "Artesana Lapte eco de vaca 3.5% grasime 1L" [level=4] [ref=e862]:
+                    - link "Artesana Lapte eco de vaca 3.5% grasime 1L" [ref=e863] [cursor=pointer]:
+                      - /url: /Lactate-si-oua/Lapte-proaspat/Lapte-proaspat-integral/Lapte-eco-de-vaca-3-5-grasime-1L/p/16148
+                      - img [ref=e864]
+                  - list [ref=e866]:
+                    - listitem [ref=e867]:
+                      - generic "Informații. Produsele proaspete sunt ambalate si transportate cu grija." [ref=e868]
+                - generic "Informații." [ref=e871]:
+                  - button "Produsul nu face parte din listele de cumparaturi. Adauga-l acum intr-o lista." [ref=e872]:
+                    - img [ref=e874]
+                - generic [ref=e876]:
+                  - heading [level=3] [ref=e878]:
+                    - link [ref=e879] [cursor=pointer]:
+                      - /url: /Lactate-si-oua/Lapte-proaspat/Lapte-proaspat-integral/Lapte-eco-de-vaca-3-5-grasime-1L/p/16148
+                      - text: Artesana Lapte eco de vaca 3.5% grasime 1L
+                  - 'generic "Pret per unitate: 16 lei si 79 bani per L" [ref=e884]': 16.79 Lei/L
+                  - generic [ref=e885]:
+                    - 'generic "Pret: 16 lei si 79 bani" [ref=e889]':
+                      - generic [ref=e890]: "16"
+                      - superscript [ref=e891]: "79"
+                      - generic [ref=e892]: Lei
+                    - button "Adauga in cos" [ref=e894]:
+                      - img [ref=e895]
+            - listitem [ref=e897]:
+              - generic [ref=e900]:
+                - generic [ref=e901]:
+                  - heading "MEGA Lapte de consum 1.5% grasime 1L" [level=4] [ref=e903]:
+                    - link "MEGA Lapte de consum 1.5% grasime 1L" [ref=e904] [cursor=pointer]:
+                      - /url: /Lactate-si-oua/Lapte-proaspat/Lapte-proaspat-semidegresat/Lapte-de-consum-1-5-grasime-1L/p/97706
+                      - img [ref=e905]
+                  - list [ref=e907]:
+                    - listitem [ref=e908]:
+                      - generic "Informații. Calitate la preturi bune zi de zi" [ref=e909]
+                    - listitem [ref=e911]:
+                      - generic "Informații. Produsele proaspete sunt ambalate si transportate cu grija." [ref=e912]
+                - generic "Informații." [ref=e915]:
+                  - button "Produsul nu face parte din listele de cumparaturi. Adauga-l acum intr-o lista." [ref=e916]:
+                    - img [ref=e918]
+                - generic [ref=e920]:
+                  - heading [level=3] [ref=e922]:
+                    - link [ref=e923] [cursor=pointer]:
+                      - /url: /Lactate-si-oua/Lapte-proaspat/Lapte-proaspat-semidegresat/Lapte-de-consum-1-5-grasime-1L/p/97706
+                      - text: MEGA Lapte de consum 1.5% grasime 1L
+                  - 'generic "Pret per unitate: 4 lei si 69 bani per L" [ref=e928]': 4.69 Lei/L
+                  - generic [ref=e929]:
+                    - 'generic "Pret: 4 lei si 69 bani" [ref=e933]':
+                      - generic [ref=e934]: "4"
+                      - superscript [ref=e935]: "69"
+                      - generic [ref=e936]: Lei
+                    - button "Adauga in cos" [ref=e938]:
+                      - img [ref=e939]
+            - listitem [ref=e941]:
+              - generic [ref=e944]:
+                - heading "Fulga Lapte UHT cu vanilie 200ml" [level=4] [ref=e947]:
+                  - link "Fulga Lapte UHT cu vanilie 200ml" [ref=e948] [cursor=pointer]:
+                    - /url: /Paine-cafea-cereale-si-mic-dejun/Lapte-UHT/Lapte-UHT-semidegresat/Lapte-UHT-cu-vanilie-200ml/p/45995
+                    - img [ref=e949]
+                - generic "Informații." [ref=e951]:
+                  - button "Produsul nu face parte din listele de cumparaturi. Adauga-l acum intr-o lista." [ref=e952]:
+                    - img [ref=e954]
+                - generic [ref=e956]:
+                  - heading [level=3] [ref=e958]:
+                    - link [ref=e959] [cursor=pointer]:
+                      - /url: /Paine-cafea-cereale-si-mic-dejun/Lapte-UHT/Lapte-UHT-semidegresat/Lapte-UHT-cu-vanilie-200ml/p/45995
+                      - text: Fulga Lapte UHT cu vanilie 200ml
+                  - 'generic "Pret per unitate: 21 lei si 45 bani per L" [ref=e964]': 21.45 Lei/L
+                  - generic [ref=e965]:
+                    - 'generic "Pret: 4 lei si 29 bani" [ref=e969]':
+                      - generic [ref=e970]: "4"
+                      - superscript [ref=e971]: "29"
+                      - generic [ref=e972]: Lei
+                    - button "Adauga in cos" [ref=e974]:
+                      - img [ref=e975]
+            - listitem [ref=e977]:
+              - generic [ref=e980]:
+                - heading "MEGA Lapte praf integral 200g" [level=4] [ref=e983]:
+                  - link "MEGA Lapte praf integral 200g" [ref=e984] [cursor=pointer]:
+                    - /url: /Ingrediente-culinare/Zahar-faina-si-malai/Cacao-frisca-si-lapte-praf/Lapte-praf-integral-200g/p/3366
+                    - img [ref=e985]
+                - generic "Informații." [ref=e987]:
+                  - button "Produsul nu face parte din listele de cumparaturi. Adauga-l acum intr-o lista." [ref=e988]:
+                    - img [ref=e990]
+                - generic [ref=e992]:
+                  - heading [level=3] [ref=e994]:
+                    - link [ref=e995] [cursor=pointer]:
+                      - /url: /Ingrediente-culinare/Zahar-faina-si-malai/Cacao-frisca-si-lapte-praf/Lapte-praf-integral-200g/p/3366
+                      - text: MEGA Lapte praf integral 200g
+                  - 'generic "Pret per unitate: 58 lei si 95 bani per Kg" [ref=e1000]': 58.95 Lei/Kg
+                  - generic [ref=e1001]:
+                    - 'generic "Pret: 11 lei si 79 bani" [ref=e1005]':
+                      - generic [ref=e1006]: "11"
+                      - superscript [ref=e1007]: "79"
+                      - generic [ref=e1008]: Lei
+                    - button "Adauga in cos" [ref=e1010]:
+                      - img [ref=e1011]
+          - link "Încarcă mai mult" [ref=e1014] [cursor=pointer]:
+            - /url: https://www.mega-image.ro/search?q=lapte:relevance&text=lapte&sort=relevance&pageNumber=2
+  - contentinfo [ref=e1016]:
+    - generic [ref=e1017]:
+      - list [ref=e1020]:
+        - listitem [ref=e1021]:
+          - link "Relatii clienti - Suna MEGA!" [ref=e1022] [cursor=pointer]:
+            - /url: /relatii-clienti
+        - listitem [ref=e1023]:
+          - link "Campanii" [ref=e1024] [cursor=pointer]:
+            - /url: /campanii-promotii-in-magazine
+        - listitem [ref=e1025]:
+          - link "Revista promotionala" [ref=e1026] [cursor=pointer]:
+            - /url: /promotii-online/reviste-promo-online
+        - listitem [ref=e1027]:
+          - link "Catalogul lunar" [ref=e1028] [cursor=pointer]:
+            - /url: /inspiratie/cataloage
+      - list [ref=e1031]:
+        - listitem [ref=e1032]:
+          - link "Intrebari frecvente Afla raspunsurile la care mai frecvente intrebari" [ref=e1033] [cursor=pointer]:
+            - /url: https://asistenta-clienti.mega-image.ro/s/
+            - generic [ref=e1034]:
+              - generic [ref=e1036]:
+                - text: Intrebari frecvente
+                - paragraph [ref=e1037]: Afla raspunsurile la care mai frecvente intrebari
+              - img [ref=e1039]
+        - listitem [ref=e1041]:
+          - link "Formular contact Ai o sugestie, sau iti putem fi de ajutor?" [ref=e1042] [cursor=pointer]:
+            - /url: https://asistenta-clienti.mega-image.ro/s/contactsupport
+            - generic [ref=e1043]:
+              - generic [ref=e1045]:
+                - text: Formular contact
+                - paragraph [ref=e1046]: Ai o sugestie, sau iti putem fi de ajutor?
+              - img [ref=e1048]
+        - listitem [ref=e1050]:
+          - link "Solutionare online a litigiilor Detalii" [ref=e1051] [cursor=pointer]:
+            - /url: https://ec.europa.eu/consumers/odr/main/index.cfm?event=main.home2.show&lng=EN
+            - generic [ref=e1052]:
+              - generic [ref=e1054]:
+                - text: Solutionare online a litigiilor
+                - paragraph [ref=e1055]: Detalii
+              - img [ref=e1057]
+        - listitem [ref=e1059]:
+          - link "ANPC SAL Detalii" [ref=e1060] [cursor=pointer]:
+            - /url: https://reclamatiisal.anpc.ro/
+            - generic [ref=e1061]:
+              - generic [ref=e1063]:
+                - text: ANPC SAL
+                - paragraph [ref=e1064]: Detalii
+              - img [ref=e1066]
+    - generic [ref=e1069]:
+      - generic [ref=e1070]:
+        - heading "Aboneaza-te la newsletter" [level=5] [ref=e1071]
+        - paragraph [ref=e1072]: Vei primi saptamanal informatii despre cele mai noi promotii si campanii
+      - generic [ref=e1076]:
+        - textbox "Abonare newsletter" [ref=e1078]:
+          - /placeholder: Adresa  e-mail*
+        - button "Aboneaza-te" [ref=e1080]:
+          - generic [ref=e1082]: Aboneaza-te
+    - generic [ref=e1083]:
+      - generic [ref=e1085]:
+        - generic [ref=e1086]:
+          - button "Comenzi si livrare" [ref=e1087] [cursor=pointer]:
+            - heading "Comenzi si livrare" [level=6] [ref=e1088]
+          - list [ref=e1090]:
+            - listitem [ref=e1091]:
+              - link "Creeaza cont" [ref=e1092] [cursor=pointer]:
+                - /url: /registration
+            - listitem [ref=e1093]:
+              - link "Cum comand online" [ref=e1094] [cursor=pointer]:
+                - /url: /cum-comand-online
+            - listitem [ref=e1095]:
+              - link "Descarca MEGA IMAGE ONLINE App Store" [ref=e1096] [cursor=pointer]:
+                - /url: https://itunes.apple.com/app/id1364063438
+            - listitem [ref=e1097]:
+              - link "Descarca MEGA IMAGE ONLINE Google Play" [ref=e1098] [cursor=pointer]:
+                - /url: https://play.google.com/store/apps/details?id=ro.delhaize
+        - generic [ref=e1099]:
+          - button "Mega Image" [ref=e1100] [cursor=pointer]:
+            - heading "Mega Image" [level=6] [ref=e1101]
+          - list [ref=e1103]:
+            - listitem [ref=e1104]:
+              - link "Companie" [ref=e1105] [cursor=pointer]:
+                - /url: /companie
+            - listitem [ref=e1106]:
+              - link "Despre Grup" [ref=e1107] [cursor=pointer]:
+                - /url: https://www.aholddelhaize.com/en/home/
+            - listitem [ref=e1108]:
+              - link "Stiri" [ref=e1109] [cursor=pointer]:
+                - /url: /stiri
+            - listitem [ref=e1110]:
+              - link "Sustenabilitate" [ref=e1111] [cursor=pointer]:
+                - /url: /sustenabilitate
+            - listitem [ref=e1112]:
+              - link "Climate Hub" [ref=e1113] [cursor=pointer]:
+                - /url: /climate-hub
+            - listitem [ref=e1114]:
+              - link "Produse marca proprie" [ref=e1115] [cursor=pointer]:
+                - /url: /produse-marca-proprie
+            - listitem [ref=e1116]:
+              - link "Cornere speciale" [ref=e1117] [cursor=pointer]:
+                - /url: /cornere-speciale
+            - listitem [ref=e1118]:
+              - link "Tipuri de magazine" [ref=e1119] [cursor=pointer]:
+                - /url: /tipuri-de-magazine
+        - generic [ref=e1120]:
+          - button "Cariere, furnizori" [ref=e1121] [cursor=pointer]:
+            - heading "Cariere, furnizori" [level=6] [ref=e1122]
+          - list [ref=e1124]:
+            - listitem [ref=e1125]:
+              - link "Parteneri si furnizori" [ref=e1126] [cursor=pointer]:
+                - /url: /parteneri-si-furnizori
+            - listitem [ref=e1127]:
+              - link "Cariera ta la Mega" [ref=e1128] [cursor=pointer]:
+                - /url: https://cariere.mega-image.ro/
+            - listitem [ref=e1129]:
+              - link "Nota de informare GDPR" [ref=e1130] [cursor=pointer]:
+                - /url: /nota-de-informare-gdpr
+            - listitem [ref=e1131]:
+              - link "Declarație privind accesibilitatea" [ref=e1132] [cursor=pointer]:
+                - /url: /declaratie-privind-accesibilitatea
+            - listitem [ref=e1133]:
+              - link "Nota de informare cercetare de piata" [ref=e1134] [cursor=pointer]:
+                - /url: /nota-de-informare-cercetare-de-piata
+            - listitem [ref=e1135]:
+              - link "Securitatea datelor si a sistemelor" [ref=e1136] [cursor=pointer]:
+                - /url: /securitatea-datelor-si-sistemelor
+            - listitem [ref=e1137]:
+              - link "Avertizor de integritate" [ref=e1138] [cursor=pointer]:
+                - /url: /avertizor-de-integritate
+      - generic [ref=e1140]:
+        - generic [ref=e1141]:
+          - list [ref=e1144]:
+            - listitem [ref=e1145]:
+              - link "Facebook" [ref=e1146] [cursor=pointer]:
+                - /url: https://www.facebook.com/MegaImageRomania
+                - img "Facebook" [ref=e1147]
+            - listitem [ref=e1148]:
+              - link "Instagram" [ref=e1149] [cursor=pointer]:
+                - /url: https://www.instagram.com/megaimageromania/
+                - img "Instagram" [ref=e1150]
+            - listitem [ref=e1151]:
+              - link "Youtube" [ref=e1152] [cursor=pointer]:
+                - /url: http://www.youtube.com/@megaimagero?sub_confirmation=1
+                - img "Youtube" [ref=e1153]
+            - listitem [ref=e1154]:
+              - link "LinkedIn" [ref=e1155] [cursor=pointer]:
+                - /url: https://www.linkedin.com/company/672209
+                - img "LinkedIn" [ref=e1156]
+          - list [ref=e1157]:
+            - listitem [ref=e1158]:
+              - link "Termeni si conditii" [ref=e1159] [cursor=pointer]:
+                - /url: /termeni-si-conditii
+            - listitem [ref=e1160]:
+              - link "Politica de confidentialitate" [ref=e1161] [cursor=pointer]:
+                - /url: /confidentialitate
+            - listitem [ref=e1162]:
+              - link "Politica cookies" [ref=e1163] [cursor=pointer]:
+                - /url: /cookie-policy
+            - listitem [ref=e1164]:
+              - link "ANPC" [ref=e1165] [cursor=pointer]:
+                - /url: http://www.anpc.gov.ro/
+            - listitem [ref=e1166]:
+              - link "ODR" [ref=e1167] [cursor=pointer]:
+                - /url: https://ec.europa.eu/consumers/odr/main/index.cfm?event=main.home2.show&lng=RO
+          - list [ref=e1169]:
+            - listitem [ref=e1170]:
+              - img "Plata cu cardul visa este disponibilă" [ref=e1171]
+            - listitem [ref=e1172]:
+              - img "Plata cu cardul mastercard este disponibilă" [ref=e1173]
+            - listitem [ref=e1174]:
+              - img "Plata cu cardul maestro este disponibilă" [ref=e1175]
+        - generic [ref=e1176]: Copyright © 2025 All rights reserved. Ahold Delhaize Group.
+```
